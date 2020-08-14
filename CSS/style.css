@@ -1,0 +1,148 @@
+body{
+  margin: 0;
+  text-align: center;
+  color:#40514E;
+}
+.top-container{
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+  font-family: 'Lora', serif;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+
+}
+a{
+  color:#9CF6D8;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  color: grey;
+  margin: 100px auto;
+}
+
+.top-cloud{
+  position: absolute;
+  top:40px;
+  right:300px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  bottom: 300px;
+  left: 250px;
+}
+
+.BT{
+  width: 20%;
+  border-radius: 50%;
+}
+
+.skill{
+  width:20%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.fifa{
+  width: 20%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.program{
+  font-weight: normal;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+p{
+  color:#40514E;
+  line-height: 2;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.middle-container{
+  padding: 100px 0;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px;
+}
+.cntct-info{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.footer{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link{
+  padding: 20px;
+}
+.btn {
+	box-shadow:inset 0 0 0 0 #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:11px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	padding:16px 30px;
+	text-decoration:none;
+	text-shadow:0 -1 0 #2b665e;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
